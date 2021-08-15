@@ -91,7 +91,7 @@ body{
 .secaoFilmes .secaoFilmes_listaFilmes{
   display: flex;
   flex-wrap: nowrap;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 .secaoFilmes .secaoFilmes_listaFilmes1{
   display: flex;
