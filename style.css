@@ -29,6 +29,10 @@ body{
   text-align: center;
 }
 
+.cabecalho .seta{
+  display: none;
+}
+
 /*ESTILO MENU*/
 
 .cabecalho .cabecalho_menu, .cabecalho .cabecalho_menuConfig{
@@ -90,7 +94,7 @@ body{
   margin-top: 10px;
   justify-content: center;
 }
-.secaoFilmes .secaoFilmes_listaFilmes1, .secaoFilmes_listaFilmes2, .secaoFilmes_listaFilmes3{
+.secaoFilmes .secaoFilmes_listaFilmes1{
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
@@ -100,10 +104,10 @@ body{
   margin-right: 15px;
 }
 
-.secaoFilmes .secaoFilmes_listaFilmes1, .secaoFilmes_listaFilmes2, .secaoFilmes_listaFilmes3 li figure{
+.secaoFilmes .secaoFilmes_listaFilmes1 li figure{
   padding: 0 10px;
 }
-.secaoFilmes .secaoFilmes_listaFilmes1, .secaoFilmes_listaFilmes2, .secaoFilmes_listaFilmes3 li img{
+.secaoFilmes .secaoFilmes_listaFilmes1 li img{
   padding: 0 10px;
 }
 
@@ -145,7 +149,7 @@ body{
   
 }
 *::-webkit-scrollbar {
-  width: 9px;
+  width: 10px;
 }
 
 *::-webkit-scrollbar-track {
@@ -163,6 +167,7 @@ body{
   .secaoDestaque {
     padding: 100px 20px 42px;
   }
+  
   .secaoDestaque .secaoDestaque_descricaoDestaque{
     width: 100%;
     max-width: 300px;
