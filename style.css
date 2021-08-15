@@ -92,7 +92,6 @@ body{
   display: flex;
   flex-wrap: nowrap;
   margin-top: 10px;
-  justify-content: center;
 }
 .secaoFilmes .secaoFilmes_listaFilmes1{
   display: flex;
@@ -163,6 +162,16 @@ body{
 }
 
 /*------ RESPONSIVO ------  */
+
+@media screen and (min-width: 300px){
+  .secaoFilmes .secaoFilmes_listaFilmes{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin-top: 10px;
+  }
+}
+
 @media screen and (min-width: 620px){
   .secaoDestaque {
     padding: 100px 20px 42px;
@@ -184,6 +193,7 @@ body{
   .secaoDestaque .secaoDestaque_navegacaoDestaque a img{
     margin-top: 10px;
   }
+
   .rodape .rodape_menuNavegacao{
     display: flex;
     justify-content: space-between;
